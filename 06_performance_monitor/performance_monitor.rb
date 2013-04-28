@@ -1,5 +1,5 @@
 require 'time'
 
-def measure
+def measure(time = nil)
   yield
 end
